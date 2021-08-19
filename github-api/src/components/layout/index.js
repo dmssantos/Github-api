@@ -1,9 +1,10 @@
 import * as S from './styled';
+import Header from '../header/index';
 
 export default function Layout({children}) {
   return(
     <S.WrapperLayout>
-      <header>Header</header>
+      <Header></Header>
       {children}
     </S.WrapperLayout>
   )

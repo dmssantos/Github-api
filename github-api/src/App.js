@@ -1,16 +1,19 @@
 import Layout from './components/layout/index';
 import Profile from './components/profile/index';
-import { resetCSS } from './global/resetCSS';
+import Repositories from './components/repositories/index';
+import GithubProvider from './providers/github-provider';
+import { ResetCSS } from './global/resetCSS';
 
 function App() {
   return (
     <main >
-      <resetCSS />
-      <Layout>
-        <Profile/>
-        <div>Repositories</div>
-        <div>Starreds</div>
-      </Layout>
+      <GithubProvider>
+        <ResetCSS />
+        <Layout>
+          <Profile />
+          <Repositories />
+        </Layout>
+      </GithubProvider>
     </main>
   );
 }
