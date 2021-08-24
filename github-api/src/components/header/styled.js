@@ -18,10 +18,8 @@ export const Wrapper = styled.div`
   button {
     background-color: #225ed8;
     padding: 8px 16px;
-    margin: 0 8px;
+    margin: 0 16px;
     border-radius: 8px;
-    font-weight: bold;
-    font-size: 16px;
 
     &:hover {
       background-color: #2c5282;
@@ -30,7 +28,7 @@ export const Wrapper = styled.div`
 
     span {
       font-weight: bold;
-      color: #fff;
+      color: #ffff;
     }
   }
 `;

@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const ResetCSS = createGlobalStyle`
-/*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+  /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -38,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "roboto", sans-serif;
+  font-family: roboto,sans-serif;
 }
 
 /**

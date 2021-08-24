@@ -1,25 +1,32 @@
-import * as S from './styled';
-import { useGithub } from '../../hooks/github-hooks';
-import { useState } from 'react';
+import React, { useState } from "react";
+import * as S from "./styled";
+import useGithub from "../../hooks/github-hooks";
 
 const Header = () => {
   const { getUser } = useGithub();
-  const {usernameForSearch, setUsernameForSearch} = useState(undefined)
+
+  const [usernameForSearch, setUsernameForSearch] = useState();
 
   const submitGetUser = () => {
-    if(!usernameForSearch) return;
+    if (!usernameForSearch) return;
     return getUser(usernameForSearch);
-  }
+  };
 
-  return(
+  return (
     <header>
       <S.Wrapper>
-        <input type="text" placeholder="Digite o userName para perquisar..." onChange={submitGetUser} />
-        <button type="submit">
-          <span>BUSCAR</span>
+        <input
+          type="text"
+          placeholder="Digite o username para pesquisa..."
+          onChange={(event) => setUsernameForSearch(event.target.value)}
+        />
+        
+        <button type="submit" onClick={submitGetUser}>
+          <span>Buscar</span>
         </button>
       </S.Wrapper>
     </header>
-  )
-}
+  );
+};
+
 export default Header;
