@@ -1,6 +1,7 @@
 <h1 align="center">
-  Github API
+  <a src="https://github-api-eight.vercel.app/">Github API</a>
 </h1>
+
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,10 +15,10 @@
 
 <p align="center">
   Página inicial onde é possivel pesquisar pelo nome do usuário.
-<a src="https://github-api-eight.vercel.app/"><img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image1.png" /></a>
+<img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image1.png" />
 
 Página onde mostra os repositórios do usuário pesquisado.
-<a src="https://github-api-eight.vercel.app/"><img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image2.png" /></a>
+<img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image2.png" />
 </p>
 
 ## ✨ Tecnologias
