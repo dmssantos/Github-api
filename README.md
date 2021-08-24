@@ -14,7 +14,9 @@
 
 <p align="center">
   Página inicial onde é possivel pesquisar pelo nome do usuário.
+<a src="dmssantos.github.io/github-api/">
 <img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image1.png" />
+</a>
 
 Página onde mostra os repositórios do usuário pesquisado.
 <img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image2.png" />
@@ -31,7 +33,6 @@ Página onde mostra os repositórios do usuário pesquisado.
 
 ## 💻 Projeto
 
-App de pesquisa de repositórios do github, trabalho realizado na aula da Digital Inovation One.
 Desenvolvimento de uma webpage com React para pesquisar e exibir repositórios do github. trabalho feito no curso de reactJS na plataforma da <a href="https://digitalinnovation.one/">Digital Inovation One</a>
 
 ## 🚀 Execução
