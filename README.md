@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a src="https://github-api-eight.vercel.app/">Github API</a>
+  Github API
 </h1>
 
 
