@@ -14,14 +14,10 @@
 
 <p align="center">
   Página inicial onde é possivel pesquisar pelo nome do usuário.
-<a src="https://github-api-eight.vercel.app/">
-<img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image1.png" />
-</a>
+<a src="https://github-api-eight.vercel.app/"><img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image1.png" /></a>
 
 Página onde mostra os repositórios do usuário pesquisado.
-<a src="https://github-api-eight.vercel.app/">
-<img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image2.png" />
-</a>
+<a src="https://github-api-eight.vercel.app/"><img src="https://github.com/dmssantos/Github-api/blob/main/github-api/github-print/image2.png" /></a>
 </p>
 
 ## ✨ Tecnologias
